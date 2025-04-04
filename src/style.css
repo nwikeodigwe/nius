@@ -25,5 +25,5 @@ body {
 }
 
 .title {
-  @apply relative w-fit tracking-wide before:content-[''] before:w-[45%] before:h-2 before:bg-primary before:block before:mb-4 before:absolute before:-bottom-8 before:left-0 before:bg-gradient-to-r before:from-[#012563] before:via-[#BC0000] before:to-[#BC0000];
+  @apply relative w-fit text-primary tracking-wide before:content-[''] before:w-[45%] before:h-2 before:bg-primary before:block before:mb-4 before:absolute before:-bottom-8 before:left-0 before:bg-gradient-to-r before:from-[#012563] before:via-[#BC0000] before:to-[#BC0000];
 }

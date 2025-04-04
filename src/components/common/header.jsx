@@ -40,7 +40,12 @@ const Header = () => {
         <ul>
           {navItems.map((item, i) => (
             <li key={i}>
-              <NavLink to={item.to}>{item.label}</NavLink>
+              <NavLink
+                className={({ isActive }) => (isActive ? "font-semibold" : "")}
+                to={item.to}
+              >
+                {item.label}
+              </NavLink>
             </li>
           ))}
         </ul>

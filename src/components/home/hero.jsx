@@ -64,9 +64,15 @@ const Hero = () => {
                 America and building beneficial relationships
               </p>
               <div className="flex items-center">
-                <span className="w-10 h-10 border-2 border-white rounded-full"></span>
-                <span className="w-10 h-10 border-2 border-white rounded-full -translate-x-1"></span>
-                <span className="w-10 h-10 border-2 border-white rounded-full -translate-x-2"></span>
+                <span className="w-10 h-10 border-2 border-white rounded-full p-1">
+                  <img src="/images/hero/1.png" alt="image" />
+                </span>
+                <span className="w-10 h-10 border-2 border-white rounded-full -translate-x-1 p-1">
+                  <img src="/images/hero/2.png" alt="image" />
+                </span>
+                <span className="w-10 h-10 border-2 border-white rounded-full -translate-x-2 p-1">
+                  <img src="/images/hero/3.png" alt="image" />
+                </span>
               </div>
             </div>
             <p className="font-[500] translate-x-5">Last event hosted by</p>
@@ -76,17 +82,41 @@ const Hero = () => {
           <div className="flex gap-10">
             <div className="flex items-center gap-1">
               <div className="flex items-center">
-                <span className="w-10 h-10 border-2 border-white rounded-full"></span>
-                <span className="w-10 h-10 border-2 border-white rounded-full -translate-x-1"></span>
-                <span className="w-10 h-10 border-2 border-white rounded-full -translate-x-2"></span>
+                <img
+                  src="/images/hero/4.png"
+                  alt="image"
+                  className="w-10 h-10 rounded-full"
+                />
+                <img
+                  src="/images/hero/5.png"
+                  alt="image"
+                  className="w-10 h-10 rounded-full -translate-x-2"
+                />
+                <img
+                  src="/images/hero/6.png"
+                  alt="image"
+                  className="w-10 h-10 rounded-full -translate-x-4"
+                />
               </div>
               <p>A support system of 45k Nigerians</p>
             </div>
             <div className="flex items-center gap-1">
               <div className="flex items-center">
-                <span className="w-10 h-10 border-2 border-white rounded-full"></span>
-                <span className="w-10 h-10 border-2 border-white rounded-full -translate-x-1"></span>
-                <span className="w-10 h-10 border-2 border-white rounded-full -translate-x-2"></span>
+                <img
+                  src="/images/hero/4.png"
+                  alt="image"
+                  className="w-10 h-10 rounded-full"
+                />
+                <img
+                  src="/images/hero/5.png"
+                  alt="image"
+                  className="w-10 h-10 rounded-full -translate-x-2"
+                />
+                <img
+                  src="/images/hero/6.png"
+                  alt="image"
+                  className="w-10 h-10 rounded-full -translate-x-4"
+                />
               </div>
               <p>A support system of 45k Nigerians</p>
             </div>
