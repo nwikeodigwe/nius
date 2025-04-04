@@ -1,0 +1,161 @@
+header {
+  @apply container fixed top-0 left-0 right-0 mx-auto flex justify-between items-center text-base font-[500] uppercase px-10 py-4 tracking-wide shadow-md z-100 bg-white/80 backdrop-blur-md;
+}
+
+/* header > div {
+  @apply absolute top-0 left-0 right-0 h-full w-full bg-white;
+} */
+
+header .logo {
+  @apply w-30 h-15 flex-shrink-0 grayscale overflow-hidden;
+}
+
+header .logo img {
+  @apply w-30 h-15;
+}
+
+header nav {
+  @apply flex items-center gap-5 z-10;
+}
+
+header ul {
+  @apply flex items-center gap-5;
+}
+
+header ul li a {
+  @apply hover:font-semibold transition-all duration-300;
+}
+
+header .button {
+  @apply flex bg-[#012563] text-white px-4 py-2 rounded-md items-center justify-center font-semibold;
+}
+
+section.hero {
+  @apply h-screen w-full bg-primary/50 relative text-white absolute inset-0 bg-cover bg-no-repeat bg-position-[center_top_-25rem] bg-[url('/images/gallery/10.jpg')] transition-all duration-300 ease-in-out before:absolute before:inset-0 before:bg-primary/60 before:z-10;
+}
+
+section.hero .flag:nth-of-type(n + 2):nth-of-type(-n + 5) {
+  @apply text-red-500;
+}
+
+section.about {
+  @apply mt-16;
+}
+
+section.stats {
+  @apply bg-[url('/images/stats.png')] bg-cover bg-center bg-no-repeat flex items-center justify-between mx-auto px-15 py-10 text-white relative before:absolute before:inset-0 before:bg-[linear-gradient(90deg,_rgba(2,0,36,0.814)_0%,_rgba(188,0,0,0.809)_100%)] before:z-1;
+}
+
+section.events {
+  @apply mt-16 px-15 mb-10;
+}
+
+section.events .container {
+  @apply flex flex-col mx-auto;
+}
+
+section.events .title {
+  @apply text-3xl font-bold mx-auto mb-10;
+}
+
+section.events .event-items {
+  @apply grid grid-cols-3 gap-4 mt-10;
+}
+
+section.events .event-item-card {
+  @apply flex flex-col gap-4;
+}
+
+section.events .event-item-card--header img {
+  @apply w-full h-full object-cover;
+}
+
+section.events .event-item-card--header {
+  @apply h-[250px] w-full bg-primary rounded-md overflow-hidden relative;
+}
+
+.event-items
+  .event-item-card:nth-child(n + 2):nth-child(-n + 3)
+  .event-item-card--header::before {
+  @apply text-white text-2xl font-bold flex items-center justify-center absolute inset-0 bg-primary/70 z-1 w-full h-full rounded-md bg-primary/90;
+  content: "Coming soon";
+}
+
+section.events .event-item-card--content h3 {
+  @apply text-lg font-semibold tracking-wide;
+}
+
+section.events .event-item-card--content div {
+  @apply flex flex-col gap-0 text-sm mt-2;
+}
+
+section.goal {
+  @apply flex flex-col mt-16 mx-auto;
+}
+
+section.goal .title {
+  @apply text-3xl font-bold mx-auto mb-10;
+}
+
+section.goal .goal-content {
+  @apply px-15 flex flex-col gap-10 bg-gray-200 py-15 mt-10 relative;
+}
+
+section.goal .goal-content-bg {
+  @apply absolute inset-0 h-full w-[450px] bg-[url('/images/goal-bg.png')] bg-cover bg-center bg-no-repeat before:absolute before:content-[''] before:inset-0 before:bg-primary before:z-10 before:opacity-80;
+}
+
+section.partner {
+  @apply flex flex-col mt-16 mx-auto;
+}
+
+section.partner .title {
+  @apply text-3xl font-bold mx-auto mb-10;
+}
+
+.gallery-images {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 my-10;
+}
+
+.gallery-images img {
+  @apply w-full h-full object-cover hover:scale-105 transition-all duration-300;
+}
+
+.gallery-images img:nth-child(1) {
+  @apply col-span-1 row-span-1;
+}
+
+.gallery-images img:nth-child(2) {
+  @apply col-span-2 row-span-2;
+}
+.gallery-images img:nth-child(6) {
+  @apply col-span-2;
+}
+
+.gallery-images img:nth-child(7) {
+  @apply col-span-2;
+}
+
+.gallery-images img:nth-child(8) {
+  @apply col-span-2;
+}
+
+.gallery-images img:nth-child(11) {
+  @apply col-span-2 row-span-2;
+}
+
+.gallery-images img:nth-child(12) {
+  @apply col-span-2;
+}
+
+.gallery-images img:nth-child(13) {
+  @apply col-span-2;
+}
+
+.gallery-images img:nth-child(14) {
+  @apply col-span-2;
+}
+
+.gallery-images img:nth-child(15) {
+  @apply col-span-2;
+}

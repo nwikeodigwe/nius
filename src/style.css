@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+@import "tailwindcss";
+@import "./components/style.css";
+
+@theme {
+  --font-titillium: "Titillium Web", sans-serif;
+  --color-primary: #012563;
+  --color-secondary: #fff;
+}
+
+body {
+  @apply font-titillium;
+}
+
+.btn {
+  @apply flex items-center justify-center px-5 py-3 rounded-md text-center shadow-md hover:-translate-y-1 transition-all duration-300 ease-in-out font-semibold;
+}
+
+.btn-primary {
+  @apply bg-primary text-white;
+}
+
+.btn-white {
+  @apply bg-white text-primary;
+}
+
+.title {
+  @apply relative w-fit tracking-wide before:content-[''] before:w-[45%] before:h-2 before:bg-primary before:block before:mb-4 before:absolute before:-bottom-8 before:left-0 before:bg-gradient-to-r before:from-[#012563] before:via-[#BC0000] before:to-[#BC0000];
+}
