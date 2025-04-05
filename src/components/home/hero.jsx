@@ -21,16 +21,16 @@ const Hero = () => {
       setIndex((prev) => (prev + 1) % images.length);
     }, 5000);
     return () => clearInterval(interval);
-  }, []);
+  }, [index]);
 
   return (
     <AnimatePresence mode="wait">
       <motion.section
         className="hero"
         style={{ backgroundImage: `url(${images[index]})` }}
-        initial={{ opacity: 0 }}
+        initial={{ opacity: 0.5 }}
         animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
+        exit={{ opacity: 0.5 }}
         transition={{ duration: 1, ease: "easeInOut" }}
       >
         <div className="grid grid-cols-2 container mx-auto max-w-6xl pt-[200px] gap-2 z-50">

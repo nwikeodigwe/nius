@@ -3,8 +3,8 @@ import { Link } from "react-router";
 
 const Index = () => {
   return (
-    <section className="constitution container mx-auto px-15 mt-[150px] py-10">
-      <div className="flex flex-col">
+    <section className="community">
+      <div className="container">
         <h1 className="text-3xl font-bold">
           The Proposed Constitution of the Nigerians in The US Community
         </h1>

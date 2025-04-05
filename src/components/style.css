@@ -1,5 +1,9 @@
 header {
-  @apply container fixed top-0 left-0 right-0 mx-auto flex justify-between items-center text-base font-[500] uppercase px-10 py-4 tracking-wide shadow-md z-100 bg-white/80 backdrop-blur-md;
+  @apply fixed top-0 left-0 right-0 mx-auto  text-base font-[500] uppercase px-10 py-4 tracking-wide shadow-md z-100 bg-white/50 backdrop-blur-xl;
+}
+
+header .container {
+  @apply container mx-auto flex justify-between items-center;
 }
 
 /* header > div {
@@ -39,7 +43,11 @@ section.hero .flag:nth-of-type(n + 2):nth-of-type(-n + 5) {
 }
 
 section.about {
-  @apply mt-16;
+  @apply mt-16 px-15 mb-10;
+}
+
+section.about .container {
+  @apply flex flex-col mx-auto;
 }
 
 section.stats {
@@ -105,7 +113,27 @@ section.goal .goal-content-bg {
   @apply absolute inset-0 h-full w-[450px] bg-[url('/images/goal-bg.png')] bg-cover bg-center bg-no-repeat before:absolute before:content-[''] before:inset-0 before:bg-primary before:z-10 before:opacity-80;
 }
 
-section.partner {
+section.constitution {
+  @apply px-15 mt-[150px] py-10;
+}
+
+section.constitution .container {
+  @apply container flex flex-col mx-auto;
+}
+
+section.community {
+  @apply mt-[150px] py-10;
+}
+
+section.community .container {
+  @apply container mx-auto md:px-15 flex flex-col mx-auto;
+}
+
+section.faq {
+  @apply px-15 mt-[150px] mb-10 max-w-5xl mx-auto;
+}
+
+.faq-tab section.partner {
   @apply flex flex-col mt-16 mx-auto;
 }
 
@@ -158,4 +186,16 @@ section.partner .title {
 
 .gallery-images img:nth-child(15) {
   @apply col-span-2;
+}
+
+.newsletter {
+  @apply px-15 bg-primary text-white py-10;
+}
+
+footer {
+  @apply bg-primary/30;
+}
+
+footer .container {
+  @apply mx-auto flex flex-col;
 }

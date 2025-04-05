@@ -29,7 +29,9 @@ const Goal = () => {
         <div className="goal-content-bg"></div>
         <div className="flex items-center gap-5 z-10">
           <div className="flex flex-col gap-5 max-w-[34ch] tracking-wide leading-8 text-white">
-            <h3 className="title text-2xl font-bold">Our Goal</h3>
+            <h3 className="!text-white !text-left title text-2xl font-bold">
+              Our Goal
+            </h3>
             <p className="mt-3 text-md tracking-wider">
               At NIUS we're committed to delivering exceptional results that
               exceed your expectations. Let us help you build a powerful online

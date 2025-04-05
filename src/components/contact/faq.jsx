@@ -26,7 +26,7 @@ const faqItems = [
 
 const Faq = ({ ...props }) => {
   return (
-    <div className={`${props.className} faq flex flex-col gap-5 mt-16`}>
+    <div className={`faq ${props.className}`}>
       <h1 className="text-2xl font-bold text-center">FAQs</h1>
       <div className="flex flex-col gap-3">
         {faqItems.map((faq, i) => {

@@ -3,7 +3,7 @@ import Faq from "./faq";
 
 const Index = () => {
   return (
-    <section className="constitution px-15 mt-[150px] mb-10 max-w-5xl mx-auto">
+    <section className="faq">
       <h1 className="text-3xl font-bold text-center">Contact Us</h1>
       <p className="text-center text-sm font-[400] mt-3">
         Here is an opportunity to ask question or connect directly to the admins
