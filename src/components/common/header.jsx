@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
+import MobileNav from "./mobileNav";
 
 const navItems = [
   {
@@ -37,8 +38,8 @@ const Header = () => {
         <div className="logo">
           <img src="/logo.png" alt="logo" />
         </div>
-        <nav>
-          <ul>
+        <nav className="desktop-nav">
+          <ul className="flex items-center gap-10">
             {navItems.map((item, i) => (
               <li key={i}>
                 <NavLink
@@ -56,6 +57,7 @@ const Header = () => {
             Sign up
           </NavLink>
         </nav>
+        <MobileNav className="md:hidden" items={navItems} />
       </div>
     </header>
   );

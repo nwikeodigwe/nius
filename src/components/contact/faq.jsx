@@ -28,7 +28,7 @@ const Faq = ({ ...props }) => {
   return (
     <div className={`faq ${props.className}`}>
       <h1 className="text-2xl font-bold text-center">FAQs</h1>
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3 mt-4">
         {faqItems.map((faq, i) => {
           return (
             <Tab key={i} className="border border-gray-300 rounded-sm p-3">

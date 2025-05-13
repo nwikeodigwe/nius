@@ -2,14 +2,14 @@ import React from "react";
 
 const Index = () => {
   return (
-    <section className="constitution container mx-auto px-15 mt-[150px] py-20">
+    <section className="about">
       <div className="flex flex-col">
         <h1 className="title text-3xl font-bold mx-auto">About Us</h1>
-        <h2 className="text-xl font-[600] mt-3">
+        <h2 className="text-xl font-[600] mt-10">
           About NIUS: Nigerians in the USA
         </h2>
 
-        <div className="flex flex-col gap-6 tracking-wide leading-8 mt-5">
+        <div className="flex flex-col gap-6 md:tracking-wide md:leading-8 mt-5 text-justify">
           <p>
             The NIUS Community, short for Nigerians In the US Community, was
             founded on May 15th, 2022, by Ebunoluwa. Its inception arose from
@@ -56,16 +56,16 @@ const Index = () => {
               Venturing into diverse sectors as investors and stakeholders.
             </li>
           </ul>
-          <div className="grid grid-cols-2 gap-6">
-            <div className="flex items-center gap-3">
-              <div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-5 gap-5">
+              <div className="col-span-1">
                 <img
                   src="/images/intend.png"
                   alt="intend"
                   className="w-[300px]"
                 />
               </div>
-              <div>
+              <div className="col-span-4">
                 <p>
                   We intend to make this community safe and reliable for all
                   Nigerians who identify with our community.
@@ -73,15 +73,15 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="flex items-center gap-3">
-              <div>
+            <div className="grid grid-cols-5 gap-5">
+              <div className="col-span-1">
                 <img
                   src="/images/encourage.png"
                   alt="intend"
                   className="w-[300px]"
                 />
               </div>
-              <div>
+              <div className="col-span-4">
                 <p>
                   We encourage partnership, networking, growth and communal
                   interactions. We host our members to social and corporate
@@ -90,15 +90,15 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="flex items-center gap-3">
-              <div>
+            <div className="grid grid-cols-5 gap-5">
+              <div className="col-span-1">
                 <img
                   src="/images/also.png"
                   alt="intend"
                   className="w-[300px]"
                 />
               </div>
-              <div>
+              <div className="col-span-4">
                 <p>
                   We also intend to encourage our members to partner and co-own
                   businesses and properties and encourage Nigerian-owned
@@ -107,15 +107,15 @@ const Index = () => {
               </div>
             </div>
 
-            <div className="flex items-center gap-3">
-              <div>
+            <div className="grid grid-cols-5 gap-5">
+              <div className="col-span-1">
                 <img
                   src="/images/welcome.png"
                   alt="intend"
                   className="w-[300px]"
                 />
               </div>
-              <div>
+              <div className="col-span-4">
                 <p>
                   We welcome you as you join this force of growth and make the
                   US home away from home.

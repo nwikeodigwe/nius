@@ -8,7 +8,7 @@ const Newsletter = () => {
         <div className="p-2 bg-white text-primary rounded-full w-fit">
           <RxEnvelopeOpen className="text-xl" />
         </div>
-        <div className="grid grid-cols-5">
+        <div className="grid grid-cols-1 md:grid-cols-5">
           <div className="col-span-2 flex flex-col gap-3">
             <h2 className="text-2xl font-bold max-w-[16ch]">
               Keep up with the latest
@@ -30,7 +30,10 @@ const Newsletter = () => {
                 />
               </fieldset>
               <fieldset className="col-span-2 flex flex-col justify-end">
-                <button type="submit" className="btn btn-white w-full">
+                <button
+                  type="submit"
+                  className="bg-white p-3 text-primary rounded-sm font-semibold"
+                >
                   Subscribe
                 </button>
               </fieldset>

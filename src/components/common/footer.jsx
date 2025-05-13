@@ -15,7 +15,7 @@ const Footer = () => {
       <Newsletter />
       <footer>
         <div className="container">
-          <div className="grid grid-cols-10 gap-6 px-15 py-10">
+          <div className="flex flex-col-reverse md:grid md:grid-cols-10 gap-6 px-15 py-10">
             <div className="col-span-3 flex flex-col gap-4">
               <img src="/logo.png" alt="logo" className="w-20" />
               <p className="text-md">
@@ -58,22 +58,22 @@ const Footer = () => {
             <div className="col-span-2 flex flex-col gap-4">
               <h4 className="text-primary font-bold">Quick links</h4>
               <ul className="flex items-center gap-3 text-primary text-2xl">
-                <li className="p-2 rounded-full bg-white text-primary">
+                <li className="p-2 bg-primary rounded-full text-white">
                   <Link to="#">
                     <FaTwitter />
                   </Link>
                 </li>
-                <li className="p-2 rounded-full bg-white text-primary">
+                <li className="p-2 bg-primary rounded-full text-white">
                   <Link to="#">
                     <FaFacebookF />
                   </Link>
                 </li>
-                <li className="p-2 bg-white rounded-full text-primary bg-white">
+                <li className="p-2 bg-primary rounded-full text-white">
                   <Link to="#">
                     <TfiLinkedin />
                   </Link>
                 </li>
-                <li className="p-2 bg-white rounded-full text-primary bg-white">
+                <li className="p-2 bg-primary rounded-full text-white">
                   <Link to="#">
                     <GrGoogle />
                   </Link>

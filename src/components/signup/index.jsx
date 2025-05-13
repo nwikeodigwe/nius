@@ -4,9 +4,9 @@ import { Link } from "react-router";
 
 const Index = () => {
   return (
-    <section className="signup px-15 mt-[150px] mb-10  mx-auto">
-      <div className="flex gap-2 items-center text-3xl font-bold -translate-x-10">
-        <Link to="/">
+    <section className="signup px-10 md:px-15 mt-16 sm:mt-16 md:mt-[150px] mb-10  mx-auto">
+      <div className="flex gap-2 items-center text-3xl font-bold md:-translate-x-10">
+        <Link to="/" className="hidden md:flex">
           <MdKeyboardBackspace />
         </Link>
         <h1>Create an account</h1>
@@ -16,7 +16,10 @@ const Index = () => {
         government-issued ID
       </p>
       <p className="text-sm mt-5">Required fields have asterisk:*</p>
-      <form action="" className="grid grid-cols-2 gap-4 mt-5">
+      <form
+        action=""
+        className="md:grid sm:flex sm:flex-col md:grid-cols-2 gap-4 mt-5"
+      >
         <fieldset className="col-span-1 flex flex-col gap-3">
           <label htmlFor="firstname">First Name*</label>
           <input

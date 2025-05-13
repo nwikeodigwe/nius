@@ -5,14 +5,14 @@ const About = () => {
   return (
     <section className="about">
       <div className="container">
-        <h2 className="title text-center text-3xl font-bold mx-auto">
+        <h2 className="title md:text-center text-3xl font-bold md:mx-auto">
           About Us
         </h2>
         <div className="flex flex-col gap-4 mt-16">
           <h3 className="text-2xl font-[700]">
             About NIUS: Nigerians in the USA
           </h3>
-          <div className="flex flex-col gap-10 text-lg tracking-wide leading-10 font-[500]">
+          <div className="flex flex-col gap-10 text-lg tracking-wide leading-5 md:leading-10 font-[500]">
             <p>
               The NIUS Community, short for Nigerians In the US Community, was
               founded on May 15th, 2022, by Ebunoluwa. Its inception arose from
@@ -37,7 +37,7 @@ const About = () => {
               Southeast, Midwest, and West—to bridge geographical divides....
             </p>
           </div>
-          <Link to="/about" className="btn btn-primary mt-10 w-fit">
+          <Link to="/about" className="btn btn-primary mt-5 md:mt-10 w-fit">
             Read more
           </Link>
         </div>

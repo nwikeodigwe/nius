@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const Index = () => {
   return (
-    <section className="community">
+    <section className="constitution">
       <div className="container">
         <h1 className="text-3xl font-bold">
           The Proposed Constitution of the Nigerians in The US Community

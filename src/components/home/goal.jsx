@@ -27,19 +27,19 @@ const Goal = () => {
       <h2 className="title">Goal Statement</h2>
       <div className="goal-content">
         <div className="goal-content-bg"></div>
-        <div className="flex items-center gap-5 z-10">
-          <div className="flex flex-col gap-5 max-w-[34ch] tracking-wide leading-8 text-white">
+        <div className="flex flex-col md:flex-row items-center gap-5 z-10">
+          <div className="flex flex-col md:gap-5 md:max-w-[34ch] md:tracking-wide leading-8 text-white">
             <h3 className="!text-white !text-left title text-2xl font-bold">
               Our Goal
             </h3>
-            <p className="mt-3 text-md tracking-wider">
+            <p className="md:mt-3 text-md md:tracking-wider">
               At NIUS we're committed to delivering exceptional results that
               exceed your expectations. Let us help you build a powerful online
               presence that drives growth and success. Get in touch with us
               today.
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {goalItems.map((goal, i) => (
               <Card
                 key={i}

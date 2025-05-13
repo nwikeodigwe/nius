@@ -7,7 +7,7 @@ import { Link } from "react-router";
 
 const Index = () => {
   return (
-    <section className="constitution">
+    <section className="community">
       <div className="container">
         <h1 className="text-3xl text-primary font-bold">
           Join our Social groups
@@ -21,7 +21,7 @@ const Index = () => {
               <h3 className="font-semibold">Whatsapp</h3>
               <Link
                 to="https://chat.whatsapp.com/BaerxmoBrkahnGG2f6PONHkg"
-                className="hover:underline transition-all duration-300"
+                className="hover:underline transition-all duration-300 break-all"
               >
                 https://chat.whatsapp.com/BaerxmoBrkahnGG2f6PONHkg
               </Link>
@@ -36,7 +36,7 @@ const Index = () => {
               <h3 className="font-semibold">Twitter</h3>
               <Link
                 to="https://chat.whatsapp.com/BaerxmoBrkahnGG2f6PONHkg"
-                className="hover:underline transition-all duration-300"
+                className="hover:underline transition-all duration-300 break-all"
               >
                 https://chat.whatsapp.com/BaerxmoBrkahnGG2f6PONHkg
               </Link>
@@ -51,7 +51,7 @@ const Index = () => {
               <h3 className="font-semibold">Facebook</h3>
               <Link
                 to="https://chat.whatsapp.com/BaerxmoBrkahnGG2f6PONHkg"
-                className="hover:underline transition-all duration-300"
+                className="hover:underline transition-all duration-300 break-all"
               >
                 https://chat.whatsapp.com/BaerxmoBrkahnGG2f6PONHkg
               </Link>
@@ -66,7 +66,7 @@ const Index = () => {
               <h3 className="font-semibold">Instagram</h3>
               <Link
                 to="https://chat.whatsapp.com/BaerxmoBrkahnGG2f6PONHkg"
-                className="hover:underline transition-all duration-300"
+                className="hover:underline transition-all duration-300 break-all"
               >
                 https://chat.whatsapp.com/BaerxmoBrkahnGG2f6PONHkg
               </Link>

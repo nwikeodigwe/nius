@@ -22,7 +22,7 @@ const Index = () => {
         <h2 className="title text-2xl mx-auto font-bold my-4">
           NIUS 2024 Gallery Update
         </h2>
-        <div className="gallery-images ">{images}</div>
+        <div className="gallery-images">{images}</div>
       </div>
     </section>
   );

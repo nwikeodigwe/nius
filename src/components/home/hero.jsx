@@ -33,26 +33,18 @@ const Hero = () => {
         exit={{ opacity: 0.5 }}
         transition={{ duration: 1, ease: "easeInOut" }}
       >
-        <div className="grid grid-cols-2 container mx-auto max-w-6xl pt-[200px] gap-2 z-50">
+        <div className="grid grid-cols-1 md:grid-cols-2 container mx-auto md:max-w-6xl pt-[50px] md:pt-[200px] p-5 gap-5 md:gap-2 z-50">
           <div className="cols-span-1 flex flex-col gap-4 z-20">
-            <h1 className="text-6xl  font-[700] leading-[70px] text-end max-w-[18ch]">
+            <h1 className="text-4xl md:text-6xl font-[700] md:leading-[70px] md:text-start md:max-w-[18ch]">
               Welcome to{" "}
               <span className="text-green-500">
                 Nig<span className="text-white">eri</span>ans
               </span>{" "}
               in the USA
             </h1>
-            <p className="text-sm max-w-[8ch] -translate-y-15">
+            <p className="text-sm md:max-w-[8ch] md:-translate-y-5 lg:-translate-y-5">
               founded <span className="text-2xl font-[700]">2022</span>
             </p>
-            <div className="flex items-center gap-4">
-              <Link to="/signup" className="btn btn-primary h-15 w-[200px]">
-                Become a member
-              </Link>
-              <Link to="/contact" className="btn btn-white h-15 w-[200px]">
-                Contact us
-              </Link>
-            </div>
           </div>
           <div className="cols-span-1 flex flex-col gap-1 pt-4 z-20">
             <div className="border-l-2 border-white pl-4 flex flex-col gap-1">
@@ -77,8 +69,23 @@ const Hero = () => {
             </div>
             <p className="font-[500] translate-x-5">Last event hosted by</p>
           </div>
+
+          <div className="grid sm:grid grid-cols-2 md:flex items-center gap-4 z-10">
+            <Link
+              to="/signup"
+              className="btn col-span-1 btn-primary md:h-15 md:min-w-[200px]"
+            >
+              Become a member
+            </Link>
+            <Link
+              to="/contact"
+              className="btn col-span-1 btn-white md:h-15 md:min-w-[200px]"
+            >
+              Contact us
+            </Link>
+          </div>
         </div>
-        <div className="flex items-center justify-center bg-primary p-2 absolute bottom-0 left-0 right-0 text-white font-[600] tracking-wider z-20">
+        <div className="flex items-center justify-center bg-primary p-5 md:p-2 md:absolute bottom-0 left-0 right-0 text-white font-[600] tracking-wider z-20">
           <div className="flex gap-10">
             <div className="flex items-center gap-1">
               <div className="flex items-center">
@@ -100,7 +107,7 @@ const Hero = () => {
               </div>
               <p>A support system of 45k Nigerians</p>
             </div>
-            <div className="flex items-center gap-1">
+            <div className="hidden md:flex items-center gap-1">
               <div className="flex items-center">
                 <img
                   src="/images/hero/4.png"
