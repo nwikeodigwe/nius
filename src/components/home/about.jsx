@@ -12,7 +12,7 @@ const About = () => {
           <h3 className="text-2xl font-[700]">
             About NIUS: Nigerians in the USA
           </h3>
-          <div className="flex flex-col gap-10 text-lg tracking-wide leading-5 md:leading-10 font-[500]">
+          <div className="flex flex-col gap-10 text-lg tracking-wide leading-5 md:leading-10 font-[500] text-justify">
             <p>
               The NIUS Community, short for Nigerians In the US Community, was
               founded on May 15th, 2022, by Ebunoluwa. Its inception arose from

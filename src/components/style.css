@@ -1,5 +1,5 @@
-.header {
-  @apply fixed top-0 left-0 right-0 mx-auto  text-base font-[500] uppercase px-10 py-4 tracking-wide shadow-md z-100 bg-white/50 backdrop-blur-xl p-10;
+header {
+  @apply fixed top-0 left-0 right-0 mx-auto  text-base font-[500] uppercase px-10 py-1 tracking-wide shadow-md z-100 bg-white/50 backdrop-blur-xl p-10;
 }
 
 header .container {
