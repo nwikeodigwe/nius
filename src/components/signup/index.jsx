@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 const Index = () => {
   return (
-    <section className="signup px-10 md:px-15 mt-16 sm:mt-16 md:mt-[150px] mb-10  mx-auto">
+    <section className="signup px-10 md:px-15 mt-[100px] sm:mt-[100px] md:mt-[150px] mb-10  mx-auto">
       <div className="flex gap-2 items-center text-3xl font-bold md:-translate-x-10">
         <Link to="/" className="hidden md:flex">
           <MdKeyboardBackspace />

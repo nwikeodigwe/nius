@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
             <div className="col-span-2 flex flex-col gap-4">
               <h4 className="text-primary font-bold">Quick links</h4>
-              <ul className="flex items-center gap-3 text-primary text-2xl">
+              <ul className="flex items-center gap-3 text-primary md:text-sm lg:text-2xl">
                 <li className="p-2 bg-primary rounded-full text-white">
                   <Link to="#">
                     <FaTwitter />

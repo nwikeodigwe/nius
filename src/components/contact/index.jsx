@@ -9,7 +9,10 @@ const Index = () => {
         Here is an opportunity to ask question or connect directly to the admins
         or moderator of this platform
       </p>
-      <form action="" className="grid grid-cols-2 gap-4 w-full mt-10">
+      <form
+        action=""
+        className="sm:flex sm:flex-col lg:grid grid-cols-2 gap-4 w-full mt-10"
+      >
         <fieldset className="col-span-1 flex flex-col gap-2">
           <label htmlFor="name" className="font-semibold">
             Name

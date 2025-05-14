@@ -33,7 +33,7 @@ const Hero = () => {
         exit={{ opacity: 0.5 }}
         transition={{ duration: 1, ease: "easeInOut" }}
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 container mx-auto md:max-w-6xl pt-[50px] md:pt-[200px] p-5 gap-5 md:gap-2 z-50">
+        <div className="grid grid-cols-1 md:grid-cols-2 container mx-auto md:max-w-6xl pt-[50px] md:pt-[150px] lg:pt-[200px] p-5 gap-5 md:gap-2 z-50">
           <div className="cols-span-1 flex flex-col gap-4 z-20">
             <h1 className="text-4xl md:text-6xl font-[700] md:leading-[70px] md:text-start md:max-w-[18ch]">
               Welcome to{" "}
@@ -73,19 +73,19 @@ const Hero = () => {
           <div className="grid sm:grid grid-cols-2 md:flex items-center gap-4 z-10">
             <Link
               to="/signup"
-              className="btn col-span-1 btn-primary md:h-15 md:min-w-[200px]"
+              className="btn col-span-1 btn-primary lg:h-15 lg:min-w-[200px]"
             >
               Become a member
             </Link>
             <Link
               to="/contact"
-              className="btn col-span-1 btn-white md:h-15 md:min-w-[200px]"
+              className="btn col-span-1 btn-white lg:h-15 lg:min-w-[200px]"
             >
               Contact us
             </Link>
           </div>
         </div>
-        <div className="flex items-center justify-center bg-primary p-5 md:p-2 md:absolute bottom-0 left-0 right-0 text-white font-[600] tracking-wider z-20">
+        <div className="flex items-center justify-center bg-primary p-5 md:p-2 lg:absolute bottom-0 left-0 right-0 text-white font-[600] tracking-wider z-10">
           <div className="flex gap-10">
             <div className="flex items-center gap-1">
               <div className="flex items-center">

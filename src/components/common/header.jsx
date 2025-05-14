@@ -57,7 +57,7 @@ const Header = () => {
             Sign up
           </NavLink>
         </nav>
-        <MobileNav className="md:hidden" items={navItems} />
+        <MobileNav className="mobile-nav" items={navItems} />
       </div>
     </header>
   );

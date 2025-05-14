@@ -37,22 +37,30 @@ const MobileNav = (props: Props) => {
           {isOpen ? <IoCloseSharp /> : <GiHamburgerMenu />}
         </button>
       </nav>
-      <div
-        className={`${
-          isOpen ? "flex" : "hidden"
-        } flex-col gap-10 absolute top-0 right-0 z-50 flex items-center justify-center w-[80%] h-screen bg-primary text-white`}
-      >
-        <ul className="flex flex-col gap-10 font-semibold text-2xl items-center">
-          {listItems}
-        </ul>
-        <NavLink
-          to="/signup"
+      {isOpen && (
+        <div
           onClick={handleClick}
-          className="btn btn-white text-2xl font-sembold"
+          className={`fixed flex inset-0 h-screen z-50 justify-end bg-black/15 backdrop-blur-2xl w-full `}
         >
-          Sign up
-        </NavLink>
-      </div>
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className={`flex flex-col gap-10 items-center justify-center w-[80vw] h-full bg-primary text-white transition-transform duration-500 ${
+              isOpen ? "translate-x-0" : "translate-x-full"
+            }`}
+          >
+            <ul className="flex flex-col gap-10 font-semibold sm:text-xl md:text-2xl items-center">
+              {listItems}
+            </ul>
+            <NavLink
+              to="/signup"
+              onClick={handleClick}
+              className="btn btn-white sm:text-xl md:text-2xl font-sembold"
+            >
+              Sign up
+            </NavLink>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

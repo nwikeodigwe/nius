@@ -16,7 +16,7 @@ const Partner = () => {
           </p>
           <form
             action=""
-            className="mt-10 flex flex-col md:grid md:grid-cols-1 gap-4"
+            className="mt-10 flex flex-col lg:grid lg:grid-cols-1 gap-4"
           >
             <fieldset className="flex flex-col gap-2">
               <label htmlFor="name" className="font-[600]">
