@@ -15,7 +15,7 @@ header .logo {
 }
 
 section.hero {
-  @apply h-[10vh] lg:h-screen w-full bg-primary/50 relative text-white inset-0 bg-cover bg-no-repeat lg:bg-position-[center_top_-25rem] bg-[url('/images/gallery/10.jpg')] transition-all duration-300 ease-in-out before:absolute before:inset-0 before:bg-primary/60 before:z-10;
+  @apply h-[100vh] lg:h-screen w-full bg-primary/50 relative text-white inset-0 bg-cover bg-no-repeat lg:bg-position-[center_top_-25rem] bg-[url('/images/gallery/10.jpg')] transition-all duration-300 ease-in-out before:absolute before:inset-0 before:bg-primary/60 before:z-10;
 }
 
 section.hero .flag:nth-of-type(n + 2):nth-of-type(-n + 5) {
